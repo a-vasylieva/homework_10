@@ -1,0 +1,276 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+header .top-line {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+}
+
+header .top-line a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+header .actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+header .button {
+  line-height: 45px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero .left-col h1 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.hero .left-col h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.hero .left-col p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.clients ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.clients h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cta h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.cta p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cta a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.features .feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.features h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.feature-cards .feature h4 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.feature-cards .feature p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.benefits .benefits-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.benefits h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.benefits-cards .benefit h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.benefits-cards .benefit p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.benefits-cards .benefit a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.review .content p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px; 
+}
+
+.review .author {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px; 
+}
+
+.ratings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .left-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .left-col h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.ratings .right-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .right-col p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px; 
+}
+
+.integrations h2 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.integrations p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px; 
+}
+
+.lokalizations h2 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.lokalizations p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; 
+}
+
+.button-black {
+  font-size: 17px;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer .footer-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer .case-studies h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+footer .case-studies p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer .case-studies a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-menu h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-menu a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+footer .bottom-line {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+footer .bottom-line .left-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
