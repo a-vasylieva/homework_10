@@ -8,6 +8,10 @@
   font-family: 'Roboto Flex', sans-serif;
 }
 
+body {
+  background: #FFFFFF;
+}
+
 .button {
   font-weight: 600;
   font-size: 16px;
