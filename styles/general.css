@@ -18,7 +18,18 @@ body {
   line-height: 60px;
 }
 
+.button-white {
+  background: transparent;
+}
+
+.button-orange {
+  color: #fff;
+  background: #FF6336;
+}
+
 .button-black {
+  color: #fff;
+  background: #000;
   font-size: 17px;
 }
 
