@@ -1,0 +1,11 @@
+
+.clients ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.clients h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}

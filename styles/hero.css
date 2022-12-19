@@ -1,0 +1,24 @@
+
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero .left-col h1 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.hero .left-col h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.hero .left-col p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}

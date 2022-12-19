@@ -1,0 +1,20 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.button-black {
+  font-size: 17px;
+}
+

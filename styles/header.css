@@ -1,0 +1,26 @@
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header .top-line {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+}
+
+.header .top-line a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header .actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header .button {
+  line-height: 45px;
+}

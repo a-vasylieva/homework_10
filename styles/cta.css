@@ -1,0 +1,23 @@
+
+.cta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cta h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.cta p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cta a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}

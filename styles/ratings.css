@@ -1,0 +1,27 @@
+
+.ratings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .left-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .left-col h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.ratings .right-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ratings .right-col p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px; 
+}
