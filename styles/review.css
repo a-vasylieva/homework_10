@@ -1,8 +1,13 @@
 
 .review {
   background: #C9E8F2;
+  /*display: grid;
+  grid-template-columns: 75% 25%;*/
+}
+
+.review .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 75% 25%;
 }
 
 .review .content p {

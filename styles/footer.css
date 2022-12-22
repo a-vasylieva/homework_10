@@ -4,7 +4,7 @@
 
 .footer .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 29% 71%;
 }
 
 .footer .footer-menu {
@@ -44,7 +44,7 @@
 
 .footer .bottom-line {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 58% 42%;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;

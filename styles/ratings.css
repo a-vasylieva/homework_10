@@ -1,13 +1,18 @@
 
 .ratings {
   background: #DABC98;
+  /*display: grid;
+  grid-template-columns: 62% 38%;*/
+}
+
+.ratings .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 62% 38%;
 }
 
 .ratings .left-col {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 34% 66%;
 }
 
 .ratings .left-col h2 {

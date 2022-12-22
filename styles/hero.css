@@ -2,7 +2,7 @@
 
 .hero {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 42% 58%;
 }
 
 .hero .left-col h1 {
