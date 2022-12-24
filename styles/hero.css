@@ -8,7 +8,6 @@
 }
 
 .hero .left-col h1 {
-  font-weight: 600;
   font-size: 65px;
   line-height: 70px;
   padding-top: 29px;
@@ -27,7 +26,6 @@
 }
 
 .hero .left-col p {
-  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   padding-top: 10px;
