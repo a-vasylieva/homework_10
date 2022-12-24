@@ -3,22 +3,62 @@
 .hero {
   display: grid;
   grid-template-columns: 42% 58%;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .hero .left-col h1 {
   font-weight: 600;
   font-size: 65px;
   line-height: 70px;
+  padding-top: 29px;
+  padding-bottom: 25px;
+  padding-left: 25px;
 }
 
 .hero .left-col h4 {
   font-weight: 400;
   font-size: 25px;
   line-height: 35px;
+  padding-top: 26px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 68px;
 }
 
 .hero .left-col p {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  padding-right: 170px;
+  padding-left: 25px;
+}
+
+.hero .actions {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-right: 209px;
+  padding-left: 25px;
+}
+
+.hero .button-white {
+  margin-left: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.hero .button-orange {
+  margin-right: 5px;
+  padding-left: 42px;
+  padding-right: 41px;
+}
+
+.hero img {
+  padding-top: 51px;
+  padding-bottom: 32px;
+  padding-right: 17px;
 }
