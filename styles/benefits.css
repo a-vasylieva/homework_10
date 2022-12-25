@@ -1,13 +1,23 @@
-
+.benefits {
+  padding-top: 120px;
+}
 
 .benefits .benefits-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 0 25px;
+}
+
+.benefits .benefit {
+padding: 75px 50px 50px 50px;
 }
 
 .benefits h2 {
   font-size: 50px;
   line-height: 60px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 25px;
 }
 
 .benefits .benefit h4 {
@@ -20,4 +30,11 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.benefits img {
+  padding: 0 75px 50px 75px;
 }
