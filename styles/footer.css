@@ -5,37 +5,56 @@
 .footer .container {
   display: grid;
   grid-template-columns: 29% 71%;
+  padding: 92px 36px 95px 25px;
 }
 
 .footer .footer-menu {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  padding: 10px 0 286px 70px;
 }
 
 .footer .case-studies h3 {
   font-size: 40px;
   line-height: 50px;
+  padding: 0 92px 14px 0;
+}
+
+.footer .case-studies img:nth-child(2) {
+  padding: 14px 70px 15px 0;
+}
+
+.footer .case-studies img:nth-child(3) {
+  padding: 15px 180px 5px 0;
 }
 
 .footer .case-studies p {
   font-size: 20px;
   line-height: 30px;
+  padding: 5px 75px 8px 0;
 }
 
 .footer .case-studies a {
   font-size: 20px;
   line-height: 30px;
+  padding: 8px 263px 0 0;
 }
 
 .footer h5 {
   font-size: 20px;
   line-height: 25px;
+  padding-bottom: 21px;
+}
+
+.footer .footer-menu ul li {
+  padding-bottom: 15px;
 }
 
 .footer .footer-menu a {
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
+  padding-bottom: 15px;
 }
 
 .footer .bottom-line {
@@ -43,9 +62,19 @@
   grid-template-columns: 58% 42%;
   font-size: 12px;
   line-height: 15px;
+  border-top: 1px solid #000000;
 }
 
 .footer .bottom-line .left-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.footer .bottom-line .left-col p {
+  text-align: left;
+}
+
+.footer .bottom-line .right-col p {
+  text-align: left;
+  padding-left: 375px;
 }

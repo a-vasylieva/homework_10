@@ -9,6 +9,10 @@
   align-content: stretch;
 }
 
+.review .content {
+  padding: 53px 30px 165px 25px;
+}
+
 .review .content p {
   font-size: 30px;
   line-height: 40px; 
@@ -17,4 +21,8 @@
 .review .author {
   font-size: 15px;
   line-height: 25px; 
+}
+
+.review .container img {
+  padding: 53px 25px 105px 30px;
 }

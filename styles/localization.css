@@ -2,12 +2,23 @@
   background: #FF9C7D;
 }
 
+.localization .container {
+  padding: 119px 278px 119px 278px;
+}
+
 .localization h2 {
   font-size: 65px;
   line-height: 75px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .localization p {
   font-size: 20px;
   line-height: 30px; 
+  padding: 15px 173px 27px 173px;
+}
+
+.localization .button-black {
+  margin: 27px 292px 42px 292px;
 }

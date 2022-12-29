@@ -1,8 +1,6 @@
 
 .ratings {
   background: #DABC98;
-  /*display: grid;
-  grid-template-columns: 62% 38%;*/
 }
 
 .ratings .container {
@@ -13,16 +11,20 @@
 .ratings .left-col {
   display: grid;
   grid-template-columns: 34% 66%;
+  padding: 90px 100px 88px 4px;
 }
 
 .ratings .left-col h2 {
   font-size: 35px;
   line-height: 50px;
+  padding: 27px  0px 27px 67px;
+  text-align: start;
 }
 
 .ratings .right-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 110px 87px 106px 70px;
 }
 
 .ratings .right-col p {

@@ -1,10 +1,22 @@
+.integrations .container {
+padding: 145px 158px 250px 158px;
+}
 
 .integrations h2 {
   font-size: 65px;
   line-height: 75px;
+  padding: 20px 117px 0px 117px;
+  text-align: center;
 }
 
 .integrations p {
   font-size: 25px;
   line-height: 30px; 
+  padding: 5px 242px 25px 242px;
+  text-align: center;
+
+}
+
+.integrations .button {
+margin: 32px 416px 5px 416px;
 }
