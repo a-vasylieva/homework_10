@@ -1,13 +1,12 @@
 
 .review {
   background: #C9E8F2;
-  /*display: grid;
-  grid-template-columns: 75% 25%;*/
 }
 
 .review .container {
   display: grid;
   grid-template-columns: 75% 25%;
+  align-content: stretch;
 }
 
 .review .content p {
