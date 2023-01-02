@@ -21,6 +21,12 @@
   text-align: start;
 }
 
+.ratings .left-col img {
+  width: 176px;
+  height: 154px;
+}
+
+
 .ratings .right-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -30,4 +36,14 @@
 .ratings .right-col p {
   font-size: 15px;
   line-height: 25px; 
+}
+
+.ratings .right-col div:first-child img {
+  width: 29px;
+  height: 36px;
+}
+
+.ratings .right-col div:last-child img {
+  width: 124px;
+  height: 36px;
 }
