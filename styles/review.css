@@ -16,13 +16,20 @@
 .review .content p {
   font-size: 30px;
   line-height: 40px; 
+  padding-bottom: 12px;
 }
 
-.review .author {
+.review .content .author {
   font-size: 15px;
   line-height: 25px; 
+  padding-top: 11px;
+  padding-bottom: 6px;
 }
 
-.review .container img {
+.review .content img {
+  width: 115px;
+}
+
+.review .container > img {
   padding: 53px 25px 105px 30px;
 }
