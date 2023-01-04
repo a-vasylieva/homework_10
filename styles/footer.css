@@ -25,7 +25,8 @@
 }
 
 .footer .case-studies img:nth-child(3) {
-  padding: 15px 180px 5px 0;
+  width: 80px;
+  height: 32px;
 }
 
 .footer .case-studies p {
@@ -67,11 +68,18 @@
 
 .footer .bottom-line .left-col {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 15% 75%;
+  justify-items: stretch;
 }
 
 .footer .bottom-line .left-col p {
   text-align: left;
+  padding-right: 280px;
+}
+
+.footer .bottom-line img {
+  width: 90px;
+  height: 21px;
 }
 
 .footer .bottom-line .right-col p {
