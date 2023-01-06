@@ -11,6 +11,7 @@
 
 body {
   background: #FFFFFF;
+  min-width: fit-content;
 }
 
 .container {
