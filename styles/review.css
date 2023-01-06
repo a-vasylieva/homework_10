@@ -1,6 +1,7 @@
 
 .review {
   background: #C9E8F2;
+  width: fit-content;
 }
 
 .review .container {
